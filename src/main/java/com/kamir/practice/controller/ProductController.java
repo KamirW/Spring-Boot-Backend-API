@@ -14,15 +14,21 @@ import org.springframework.web.bind.annotation.RestController;
 import com.kamir.practice.model.Product;
 import com.kamir.practice.service.ProductService;
 
+/**
+ * This class is responsible for mapping all endpoints to equivalent functionality
+ * 
+ * @author KamirW
+ */
 @RestController
 @CrossOrigin
 @RequestMapping("/api")
 public class ProductController {
 
+    // We don't want the controller talking to the database directly
     @Autowired
     ProductService service;
     
-    // Get requests 
+    // **** Get requests ****
     @GetMapping("/")
     public String greet() {
         return "Hello World";

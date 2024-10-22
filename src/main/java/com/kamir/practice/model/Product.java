@@ -10,6 +10,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * This class handles the formatting of what a product should be.
+ * 
+ * @author KamirW
+ */
 @Entity
 @Data
 @AllArgsConstructor

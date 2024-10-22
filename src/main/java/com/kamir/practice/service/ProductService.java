@@ -11,6 +11,8 @@ import com.kamir.practice.repo.ProductRepo;
 @Service
 public class ProductService {
 
+    // We don't want the service to talk to the database or return 
+    // hard coded values
     @Autowired
     ProductRepo repo;
     
