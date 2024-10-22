@@ -1,4 +1,4 @@
-This project leverages the power of Spring Boot to create a basic backend API.
+This project leverages the power of Spring Boot to create a basic backend API. The first endpoint is just a hello world screen that signifies to the user that they've successfully hit that endpoint.
 
 This API has three main endpoints for the user to hit; the first one being the main screen that can be accessed at '/api/':   
 ![Api Basic Screen image](./images/apiScreen.JPG)
